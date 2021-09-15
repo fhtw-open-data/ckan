@@ -1,0 +1,108 @@
+/* =====================================================
+   The "account masthead" bar across the top of the site
+   ===================================================== */
+
+.account-masthead {
+    background-color: #00649b !important;
+    background-image: none!important;
+}
+
+/* The "bubble" containing the number of new notifications. */
+.account-masthead .account .notifications a span {
+  background-color: black!important;
+}
+/* The text and icons in the user account info. */
+.account-masthead .account ul li a {
+  color: rgb(255, 255, 255) !important;
+}
+/* The user account info text and icons, when the user's pointer is hovering
+   over them. */
+.account-masthead .account ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #004e76 !important;
+}
+
+/* ========================================================================
+   The main masthead bar that contains the site logo, nav links, and search
+   ======================================================================== */
+
+.masthead {
+  background-color: white !important;
+  background-image: none!important;
+  border-bottom: 3px solid #8BB31D!important;
+}
+
+.masthead ul a{
+  color: black!important;
+}
+
+/* The "navigation pills" in the masthead (the links to Datasets,
+   Organizations, etc) when the user's pointer hovers over them. */
+.masthead .navigation .nav-pills li a:hover {
+  background-color: #8BB31D!important;
+}
+/* The "active" navigation pill (for example, when you're on the /dataset page
+   the "Datasets" link is active). */
+.masthead .navigation .nav-pills li.active a {
+  background-color: #8BB31D!important;
+}
+
+
+
+/* ===========================================
+   The content in the middle of the front page
+   =========================================== */
+
+/* Remove the "box shadow" effect around various boxes on the page. */
+.box {
+  box-shadow: none!important;
+}
+/* Remove the borders around the "Welcome to CKAN" and "Search Your Data"
+   boxes. */
+.hero .box {
+  border: 1px solid #00649b!important;
+    margin-top: 20px!important;
+}
+/* Change the colors of the "Search Your Data" box. */
+.homepage .module-search .module-content {
+  color: black!important;
+  background-color: white!important;
+}
+/* Change the background color of the "Popular Tags" box. */
+.homepage .module-search .tags {
+  background-color: #00649b!important;
+}
+
+.homepage .module-search .tags a:hover {
+  background-color: #004e76!important;
+}
+
+/* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
+   and "Search Your Data" boxes line up. */
+.module-content:last-child {
+  padding-bottom: 0px!important;
+}
+.homepage .module-search {
+  padding: 0px!important;
+}
+
+.homepage [role="main"] {
+  padding: 0px!important;
+}
+
+/* ====================================
+   The footer at the bottom of the site
+   ==================================== */
+
+.site-footer,
+body {
+  background-color: #00649b!important;
+}
+
+
+.hero{
+    background-image: url("https://cis.technikum-wien.at/cms/dms.php?id=168749")!important;
+    background-color: white !important;
+    min-height: 1000px!important;
+}
+
